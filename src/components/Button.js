@@ -7,7 +7,7 @@ export default function Button({ label, theme }) {
 			<View style={[styles.buttonContainer]}>
 				<Pressable
 					style={[styles.button, { backgroundColor: "#fff" }]}
-					onPress={() => alert("You pressed THE button, bitch.")}
+					onPress={() => alert("دەستت نا بە دوگمەکە کوڕی قەحبە")}
 				>
 					<FontAwesome
 						name="thumbs-up"
@@ -27,7 +27,7 @@ export default function Button({ label, theme }) {
 		<View style={styles.buttonContainer}>
 			<Pressable
 				style={styles.button}
-				onPress={() => alert("You pressed THE button, bitch.")}
+				onPress={() => alert("دەستت نا بە دوگمەکە کوڕی قەحبە")}
 			>
 				<Text style={styles.buttonLabel}>{label}</Text>
 			</Pressable>
